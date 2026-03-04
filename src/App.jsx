@@ -267,6 +267,15 @@ function Footer() {
           &copy; {new Date().getFullYear()} Pro Casino Tour. All rights reserved.
         </p>
       </div>
+
+      <div className="max-w-6xl mx-auto mt-8 pt-6 border-t border-white/5 px-6 pb-2 text-center">
+        <p className="text-gold-500 text-xs font-semibold mb-2">21+ ONLY</p>
+        <p className="text-gray-500 text-xs leading-relaxed max-w-2xl mx-auto">
+          <span className="font-semibold text-gray-400">Responsible Gaming:</span> Pro Casino Tour promotes responsible gaming.
+          This site and its events are intended for individuals 21 years of age or older. If you or someone you know has a
+          gambling problem, please call the National Problem Gambling Helpline at <a href="tel:1-800-522-4700" className="text-gold-500 hover:text-gold-400 transition-colors">1-800-522-4700</a> (call or text, available 24/7).
+        </p>
+      </div>
     </footer>
   )
 }
